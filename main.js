@@ -46,7 +46,7 @@ TypeWriter.prototype.type = function (){
         } 
     }
     setTimeout(() => this.type(), 500);
-}
+
 // Init On DOM Load
 document.addEventListener('DOMContentLoaded', init);
 
